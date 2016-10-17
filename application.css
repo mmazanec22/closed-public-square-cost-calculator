@@ -1,9 +1,43 @@
 body{
-  margin: 5%;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #ffece6;
+  color: #2b2d59;
+  margin:0;
+  padding:0;
+  margin-bottom: 5%;
 }
 
-.text-amount {
+.title {
+  background-color: #dcdcef;
+  padding: 1%;
+  font-size: 1.8vw;
+  margin-top: 0;
+  position: relative;
+  border-bottom: 1vw solid #2b2d59;
+}
+
+.calculator{
+  color: #cc3300;
+  font-size: 7vw;
+}
+
+.text-amount{
+  margin-left:auto;
+  margin-right:auto;
+  width: 90%;
+  text-align: top;
+}
+
+.t-a-text{
+  width: 25%;
+  font-size: 4vw;
+}
+
+.dollar-amount{
+  padding-left: 2%;
+  padding-right: 2%;
   text-align: center;
-  display: inline-block;
-  margin: 2%;
+  width: 25%;
+  font-size: 4vw;
 }

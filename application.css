@@ -1,0 +1,9 @@
+body{
+  margin: 5%;
+}
+
+.text-amount {
+  text-align: center;
+  display: inline-block;
+  margin: 2%;
+}

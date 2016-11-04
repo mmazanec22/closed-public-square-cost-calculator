@@ -1,7 +1,7 @@
 $(document).ready(function(){
 
   var annualCost = 1550000
-  var startDate = new Date('08 01 2016')
+  var startDate = new Date('2016/08/01')
   var costPerSecond = annualCost/365/24/60/60
 
   var update = function(){

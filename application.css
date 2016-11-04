@@ -1,25 +1,45 @@
 body{
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
-  background-color: #ffece6;
-  color: #2b2d59;
+  background-color: white;
+  color: #003655;
   margin:0;
   padding:0;
   margin-bottom: 5%;
 }
 
-.title {
-  background-color: #dcdcef;
-  padding: 1%;
-  font-size: 2.5vw;
-  margin-top: 0;
-  position: relative;
-  border-bottom: 1vw solid #2b2d59;
+a{
+  color: #003655;
 }
 
-.calculator{
-  color: #cc3300;
+a:hover{
+  color: #8dc741;
+}
+
+img{
+  width: 90%;
+  margin-top: 5%;
+  border: 2px solid #003655;
+}
+
+.title {
+  color: white;
+  background-color: #d3114d !important;
+  padding: 1%;
+  font-size: 1.2vw;
+  margin-top: 0;
+  position: relative;
+  border-bottom: 4px solid #003655;
+}
+
+.rolling-amount{
+  color: #d3114d;
   font-size: 7vw;
+}
+
+.since{
+  color: #003655;
+  font-size: 2vw;
 }
 
 .text-amount{
@@ -31,7 +51,8 @@ body{
 
 .t-a-text{
   width: 25%;
-  font-size: 4vw;
+  font-size: 3vh;
+  color: #003655;
 }
 
 .dollar-amount{
@@ -39,11 +60,65 @@ body{
   padding-right: 2%;
   text-align: center;
   width: 25%;
-  font-size: 4vw;
+  font-size: 3vw;
 }
 
 ul{
+  color: #003655;
   list-style: none;
-  padding: 6vw;
+  padding-bottom: 6vw;
+  padding-left: 6vw;
+  padding-right: 6vw;
   text-align: left;
+  font-size: 1.5vw;
+  padding-top: 2vw;
+}
+
+.faq{
+  text-align: center;
+}
+
+@media only screen and (max-width: 550px) {
+
+  .title {
+    padding: 1%;
+    font-size: 2vw;
+    margin-top: 0;
+    position: relative;
+  }
+
+  .rolling-amount{
+    font-size: 10vh;
+  }
+
+  .since{
+    font-size: 4.5vw;
+  }
+
+  .text-amount{
+    margin-left:auto;
+    margin-right:auto;
+    width: 90%;
+    text-align: top;
+  }
+
+  .t-a-text{
+    width: 25%;
+    font-size: 3vw;
+  }
+
+  .dollar-amount{
+    padding-left: 2%;
+    padding-right: 2%;
+    text-align: center;
+    width: 25%;
+    font-size: 4vw;
+  }
+
+  ul{
+    list-style: none;
+    padding: 6vw;
+    text-align: left;
+    font-size: 3vw;
+  }
 }

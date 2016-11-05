@@ -8,7 +8,7 @@ $(document).ready(function(){
     var now = new Date()
     var dif = now.getTime() - startDate.getTime()
     var secondsBetween = Math.abs(dif/1000)
-    $(".calculator").find(".rolling-amount").text(convertToCurrency(costPerSecond * secondsBetween))
+    $(".calculator").find(".rolling-amount").text("- " + convertToCurrency(costPerSecond * secondsBetween))
   }
   setInterval(update, 1000)
 

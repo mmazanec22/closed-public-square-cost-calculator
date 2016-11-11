@@ -5,7 +5,7 @@ body{
   color: #003655;
   margin:0;
   padding:0;
-  margin-bottom: 5%;
+  /*margin-bottom: 5%;*/
 }
 
 a{
@@ -19,7 +19,7 @@ a:hover{
 img{
   width: 90%;
   margin-top: 5%;
-  border: 2px solid #003655;
+  /*border: 2px solid #003655;*/
 }
 
 .title {
@@ -29,7 +29,7 @@ img{
   font-size: 1.2vw;
   margin-top: 0;
   position: relative;
-  border-bottom: 4px solid #003655;
+  /*border-bottom: 4px solid #003655;*/
 }
 
 .rolling-amount{
@@ -76,6 +76,19 @@ ul{
 
 .faq{
   text-align: center;
+}
+
+footer{
+  color: white;
+  background-color: #d3114d !important;
+  padding: 1%;
+  font-size: 1.2vw;
+  margin-top: 0;
+  position: relative;
+}
+
+footer a{
+  color: white;
 }
 
 @media only screen and (max-width: 550px) {

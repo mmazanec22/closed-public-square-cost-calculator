@@ -54,14 +54,19 @@ img{
 .text-amount{
   margin-left:auto;
   margin-right:auto;
-  width: 90%;
+  width: 100%;
   text-align: top;
+}
+
+.text-amount-2{
+  margin-top: 4vh;
 }
 
 .t-a-text{
   width: 25%;
-  font-size: 3vw;
+  font-size: 2vw;
   color: #003655;
+  text-align: top;
 }
 
 .dollar-amount{
@@ -69,7 +74,7 @@ img{
   padding-right: 2%;
   text-align: center;
   width: 25%;
-  font-size: 3vw;
+  font-size: 2.5vw;
 }
 
 .faq-ul{
@@ -141,6 +146,13 @@ footer a{
 }
 .bullet-list li{
   padding: 3px;
+}
+
+.pedestrian-injury{
+  font-size: 2vw;
+  width: 90%;
+  margin: 0 auto;
+  padding-top: 20px;
 }
 
 

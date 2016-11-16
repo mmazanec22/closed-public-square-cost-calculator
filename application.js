@@ -21,9 +21,11 @@ var convertToCurrency = function(dollarsAsInteger){
   dollarsAsInteger = dollarsAsInteger.toFixed(2)
   var wholeNum = dollarsAsInteger.split(".")[0].split("")
   var numTimesDo = wholeNum.length
+  var timesDoneBefore = 0
   for(var i = 1; i < numTimesDo/3; i ++){
-    var index = wholeNum.length - (3 * i)
+    var index = wholeNum.length - (3 * i) - timesDoneBefore
     wholeNum.splice(index, 0, ",")
+    timesDoneBefore += 1
   }
   wholeNum = wholeNum.join("")
   return "$" + wholeNum + "." +dollarsAsInteger.split(".")[1]

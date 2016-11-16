@@ -14,10 +14,6 @@ $(document).ready(function(){
 
 })
 
-var today = function(){
-
-}
-
 
 var convertToCurrency = function(dollarsAsInteger){
   dollarsAsInteger = dollarsAsInteger.toFixed(2)

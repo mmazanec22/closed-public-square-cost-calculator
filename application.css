@@ -37,8 +37,13 @@ img{
 }
 
 .rolling-amount{
+  color: #003655;
+  font-size: 4vw;
+}
+
+.with-12-mil{
   color: #d3114d;
-  font-size: 7vw;
+  font-size: 6vw;
 }
 
 .since{
@@ -149,7 +154,13 @@ footer a{
   }
 
   .rolling-amount{
-    font-size: 10vh;
+    font-size: 3vh;
+    color: #003655;
+  }
+
+  .with-12-mil{
+    color: #d3114d;
+    font-size: 6vh;
   }
 
   .since{

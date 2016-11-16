@@ -91,6 +91,11 @@ footer a{
   color: white;
 }
 
+.call-mayor{
+  background-color: #8dc741;
+  padding: 2vw;
+}
+
 @media only screen and (max-width: 550px) {
 
   .title {
